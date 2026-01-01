@@ -363,8 +363,6 @@ The system uses **intelligent multi-factor analysis** to classify employee activ
 EmployeeActivityTracking/
 │
 ├── 📄 employee_tracking_yolo11.py    # Main tracking script (PRODUCTION)
-├── 📄 employee_tracking_fixed.py     # Fixed version with enhancements
-├── 📄 employee_tracking_enhanced.py  # Enhanced experimental version
 │
 ├── 🎥 demo.mp4                       # Sample demo video
 ├── 🎥 employee video.mp4             # Employee tracking sample
@@ -377,14 +375,9 @@ EmployeeActivityTracking/
 │   ├── yolo11_output_*.mp4          # Annotated videos
 │   └── frame_*.jpg                  # Periodic snapshots
 │
-├── 📂 logs/                          # Detailed processing logs
-│   └── yolo11_tracking_*.txt        # Timestamped event logs
-│
 ├── 📄 requirements.txt               # Python dependencies
 ├── 📄 README.md                      # This comprehensive guide
-├── 📄 ARCHITECTURE.md                # System architecture details
-├── 📄 ACTIVITY_LOGIC.md              # Activity classification logic
-└── 📄 .gitignore                     # Git ignore rules
+├── 📄 ARCHITECTURE.md                # System 
 ```
 
 ### Core Components
